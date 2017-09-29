@@ -5,7 +5,7 @@
 body {
   background: #b3dbe8;
   color: #000;
-  font-family: sans-serif; /*   add fonts   */
+  font-family: 'Lora', Times, serif; /*   add fonts   */
 }
 
 
@@ -47,7 +47,7 @@ aside {
 
 h1, h2 {
   margin: 0;
-  font-family: serif; /*   add fonts   */
+  font-family: 'PT Sans', Verdana, sans-serif; /*   add fonts   */
 }
 
 article h1 {
@@ -115,3 +115,25 @@ aside a:hover {
 
 
 /* put your media queries below */
+
+@media (max-width: 600px) {
+
+    aside {float:none;
+            width:100%;
+            margin: 0;}
+
+    article {float:none;
+            width:100%;
+            margin: 0;}
+
+    body    {width:100%;
+            margin: 0;}
+
+    #container { border-width: 0;
+                margin: 0;}
+
+    #top-image-container {display:none;}
+
+    #sidebar2 {margin-top: 0%;}
+
+  }
